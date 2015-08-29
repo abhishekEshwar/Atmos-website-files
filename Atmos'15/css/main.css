@@ -332,6 +332,8 @@ div.drop_down_menu{
   font-size: 70px;
   z-index: 4;
   margin: 30px;
+  margin-top: -120px;
+  margin-left: 0px;
 }
 .dd_menu_hamburger{
   display:inline-block;
@@ -357,7 +359,7 @@ div.drop_down_menu{
 
 }
 #dropdownalerts{
-  margin-top: 0px;
+  margin-top: -100px;
 }
 div.nebula-container {
     width: 100%;
@@ -447,8 +449,9 @@ div.nebula.nebula-2 {
     width: 136px;
     height: 290px;
     position: absolute;
-    top: 60px;
-    left: 75%;
+    top: 200%;
+    bottom: -390%;
+    left: 70%;
     background-image: url("../img/spaceman_noArm_flag.png");
     margin-left: -50px;
     z-index: 3
