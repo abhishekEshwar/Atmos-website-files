@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="css/screen.css">
 
         <link rel="stylesheet" href="css/events_menu.css">
+        <link rel="stylesheet" href="css/lines.css">
+
+        <link href="css/hover-min.css" rel="stylesheet" media="all">
 
         <script src="js/lib/modernizr.min.js"></script>
         <script src="js/lib/mobiledetect.min.js"></script>
@@ -19,12 +22,17 @@
     <body>
 
         <div class = "drop_down_menu">
-          <a href="#" class="dd_menu_hamburger" id = "dd_menu_hamburger"><span>&equiv;</span></a>
+          <!--<a href="#" class="dd_menu_hamburger" id = "dd_menu_hamburger"><span>&equiv;</span></a>-->
+          <div>
+          <button type="button" role="button" aria-label="Toggle Navigation" class="lines-button x buttons-container" id = "lines_main">
+            <span class="lines"></span>
+          </button>
+        </div>
           <ul id="dropdownalerts" class="f-dropdown text-left" data-dropdown-content>
-            <a  style="cursor:pointer" class = "dd_menu_1"><li>Home</li> </a>
-            <a  style="cursor:pointer" class = "dd_menu_2"><li>Events</li></a>
-            <a  style="cursor:pointer" class = "dd_menu_3"><li>About Us</li></a>
-            <a  style="cursor:pointer" class = "dd_menu_4"><li>Contact Us</li></a>
+            <a  style="cursor:pointer" class = "dd_menu_1"><li class="hvr-bounce-to-bottom">Home</li> </a>
+            <a  style="cursor:pointer" class = "dd_menu_2"><li class="hvr-bounce-to-bottom">Events</li></a>
+            <a  style="cursor:pointer" class = "dd_menu_3"><li class="hvr-bounce-to-bottom">About Us</li></a>
+            <a  style="cursor:pointer" class = "dd_menu_4"><li class="hvr-bounce-to-bottom">Contact Us</li></a>
           </ul>
         </div>
         <div class="nebula-container">
@@ -258,7 +266,7 @@
         </div>
         <div id="footer_final">
           <div class="spaceman "><div class="arm armwave"></div></div>
-          <img width = "100%" src = "img/website_footerf.png"/>
+          <img width = "100%" src = "img/footer.svg"/>
         </div>
         <script type="text/javascript" src="js/main.js"></script>
 
