@@ -933,3 +933,9 @@ background-size:100% auto;
     min-height:100%;
     position:relative;
 }
+
+@media screen and (max-width: 924px) {
+    .alien_body {
+        display: none !important;
+    }
+}
