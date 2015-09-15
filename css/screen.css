@@ -271,3 +271,21 @@ background-size:100% auto;
   display: table-cell;
   vertical-align: middle;
 }
+@font-face {
+font-family: Stellar;
+src: url("../fonts/stellar_bold.otf") format("opentype");
+}
+
+@font-face {
+font-family: Stellar;
+font-weight: bold;
+src: url("../fonts/stellar_bold.otf") format("opentype");
+}
+
+.events-heading{
+  color:#fff;
+  font-family: Stellar, Helvetica, Verdana, Sans-Serif;
+  font-size: -webkit-xxx-large;
+  font-style: normal;
+  text-decoration: none;
+}
