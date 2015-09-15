@@ -6,24 +6,29 @@ jQuery(function($) {
     
     $(".dd_menu_4").click(function () {
        $('html, body').animate({
-           scrollTop: $('#footer_final').offset().top
+           scrollTop: $('#menu-4').offset().top
+       }, 'slow');
+   });
+    $(".dd_menu_5").click(function () {
+       $('html, body').animate({
+           scrollTop: $('#menu-5').offset().top
        }, 'slow');
    });
    $(".dd_menu_2").click(function () {
       $('html, body').animate({
-          scrollTop: $('#events_menu').offset().top
+          scrollTop: $('#menu-2').offset().top
       }, 'slow');
   });
 
   $(".dd_menu_1").click(function () {
      $('html, body').animate({
-         scrollTop: $('#home-logo').offset().top
+         scrollTop: $('#menu-1').offset().top
      }, 'slow');
   });
 
     $(".dd_menu_3").click(function () {
        $('html, body').animate({
-           scrollTop: $('.nebula-2').offset().top
+           scrollTop: $('#menu-3').offset().top
        }, 'slow');
     });
 
