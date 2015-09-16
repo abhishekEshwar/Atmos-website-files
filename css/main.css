@@ -934,6 +934,119 @@ background-size:100% auto;
     position:relative;
 }
 
+
+
+@-webkit-keyframes ufo {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    25% {
+        -webkit-transform: rotate(3deg)
+    }
+    50% {
+        -webkit-transform: rotate(0deg)
+    }
+    75% {
+        -webkit-transform: rotate(-3deg)
+    }
+    100% {
+        -webkit-transform: rotate(0deg)
+    }
+}
+@-moz-keyframes ufo {
+    0% {
+        -moz-transform: rotate(0deg)
+    }
+    25% {
+        -moz-transform: rotate(3deg)
+    }
+    50% {
+        -moz-transform: rotate(0deg)
+    }
+    75% {
+        -moz-transform: rotate(-3deg)
+    }
+    100% {
+        -moz-transform: rotate(0deg)
+    }
+}
+@-ms-keyframes ufo {
+    0% {
+        -ms-transform: rotate(0deg)
+    }
+    25% {
+        -ms-transform: rotate(3deg)
+    }
+    50% {
+        -ms-transform: rotate(0deg)
+    }
+    75% {
+        -ms-transform: rotate(-3deg)
+    }
+    100% {
+        -ms-transform: rotate(0deg)
+    }
+}
+@-o-keyframes ufo {
+    0% {
+        -o-transform: rotate(0deg)
+    }
+    25% {
+        -o-transform: rotate(3deg)
+    }
+    50% {
+        -o-transform: rotate(0deg)
+    }
+    75% {
+        -o-transform: rotate(-3deg)
+    }
+    100% {
+        -o-transform: rotate(0deg)
+    }
+}
+@keyframes ufo {
+    0% {
+        transform: rotate(0deg)
+    }
+    25% {
+        transform: rotate(3deg)
+    }
+    50% {
+        transform: rotate(0deg)
+    }
+    75% {
+        transform: rotate(-3deg)
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
+.register-div{
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation: ufo 2s linear infinite;
+    -moz-animation: ufo 2s linear infinite;
+    animation: ufo 2s linear infinite;
+}
+.camp-ambss-div{ 
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation: ufo 2s linear infinite;
+    -moz-animation: ufo 2s linear infinite;
+    animation: ufo 2s linear infinite;
+}
+.register-div:hover{
+    cursor: pointer;
+}
+.camp-ambss-div:hover{
+    cursor: pointer;
+}
 @media screen and (max-width: 924px) {
     .alien_body {
         display: none !important;
